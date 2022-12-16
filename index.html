@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <title>Desafio Interactive-Rating => Guiilhermeap </title>
+  </head>
+  <body>
+    <!-- Rating state start -->
+
+    <main class="card__first">
+      <div class="icon__container">
+        <img src="images/icon-star.svg" alt="" class="icon" />
+      </div>
+      <div class="container__titulo">
+        <h1 class="titulo">How did we do?</h1>
+      </div>
+      <div class="container__subtitulo">
+        <span class="subtitulo">
+          Please let us know how we did with your support request. All feedback
+          is appreciated to help us improve our offering!
+        </span>
+      </div>
+      <div class="container__opicoes" id="numeros">
+        <div class="numeros__circulo"><span value="1">1</span></div>
+        <div class="numeros__circulo"><span value="2">2</span></div>
+        <div class="numeros__circulo"><span value="3">3</span></div>
+        <div class="numeros__circulo"><span value="4">4</span></div>
+        <div class="numeros__circulo"><span value="5">5</span></div>
+      </div>
+      <div class="container__button">
+        <a href="#" class="button" id="submit" name="submit">Submit</a>
+      </div>
+    </main>
+
+    <main class="card__second hidden">
+      <div class="container__img">
+        <img src="images/illustration-thank-you.svg" class="imagem__thanks" />
+      </div>
+      <div class="thank__you">
+        <p class="selecionados">
+          You selected
+          <span id="rating"></span>
+          out of 5
+        </p>
+        <h1 class="thank--you">Thank you!</h1>
+        <span class="descricao__thanks"
+          >We appreciate you taking the time to give a rating. If you ever need
+          more support, don’t hesitate to get in touch!</span
+        >
+      </div>
+    </main>
+
+    <div class="attribution">
+      Challenge by -->
+      <a
+        href="https://www.frontendmentor.io?ref=challenge"
+        target="_blank"
+        class="nome"
+        >Frontend Mentor.</a
+      >
+      <br />
+      Coded by -->
+      <a href="https://guilhermeeap.ga/portifolio/" target="_blank" class="nome"
+        >Guilherme Rocha.</a
+      >
+      <br />
+      GitHub -->
+      <a href="https://guilhermeeap.ga/portifolio/" target="_blank" class="nome"
+        >Guiilhermeap.</a
+      >
+    </div>
+
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
